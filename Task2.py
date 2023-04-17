@@ -43,7 +43,7 @@ input_data = Entry(ws, justify=CENTER, font=('Arial', 16))
 
 lbl = Label(
     ws,
-    text='Введите число:',
+    text='Введите имя:',
     bg='#0f4b6e',
     fg='white',
     font=('Arial', 16)
