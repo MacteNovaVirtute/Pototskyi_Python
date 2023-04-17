@@ -27,15 +27,12 @@ def divided_by3():
     else:
         return entered_array()
 
-
-
 def answer():
     display_entered.delete(0, END)
     display_entered.insert(0, entered_array())
     display_dividedby3.delete(0, END)
     display_dividedby3.insert(0, divided_by3())
     input_data.delete(0, END)
-
 
 ws = Tk()
 ws.title('Task3')
@@ -55,9 +52,7 @@ lbl = Label(
 
 lbl.pack(pady=20)
 
-
 input_data.pack(pady=5)
-
 
 btn = Button(
     ws,

@@ -1,9 +1,5 @@
 from tkinter import *
 
-
-
-
-
 def check_int():
     try:
         int(input_data.get())
@@ -14,7 +10,6 @@ def check_int():
         else:
             display = "Нет такого имени"
             return display
-
 def check_data():
         input = input_data.get()
         if check_int() == None:
@@ -24,10 +19,6 @@ def check_data():
         else:
             display = "Нет такого имени"
         return display
-
-
-
-
 def answer():
     display_data.delete(0, END)
     display_data.insert(0, check_data())
@@ -63,8 +54,6 @@ btn = Button(
 )
 btn.pack(pady=5)
 
-
-
 display_data = Entry(
     ws,
     width=40,
@@ -73,6 +62,5 @@ display_data = Entry(
     )
 
 display_data.pack(pady=5)
-
 
 ws.mainloop()

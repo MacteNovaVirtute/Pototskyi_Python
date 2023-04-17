@@ -1,6 +1,5 @@
 from tkinter import *
 
-
 def check_data():
 
     while True:
@@ -27,7 +26,6 @@ ws.config(bg='#0f4b6e')
 
 input_data = Entry(ws, justify=CENTER, font=('Arial', 16))
 
-
 lbl = Label(
     ws,
     text='Введите число:',
@@ -39,7 +37,6 @@ lbl = Label(
 lbl.pack(pady=20)
 input_data.pack(pady=5)
 
-
 btn = Button(
     ws,
     text='Проверить',
@@ -50,8 +47,6 @@ btn = Button(
 )
 btn.pack(pady=5)
 
-
-
 display_data = Entry(
     ws,
     width=40,
@@ -60,6 +55,5 @@ display_data = Entry(
     )
 
 display_data.pack(pady=5)
-
 
 ws.mainloop()
