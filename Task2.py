@@ -14,7 +14,7 @@ def check_data():
         input = input_data.get()
         if check_int() == None:
             display = "Вы должны вводить только буквы"
-        elif input == "Вячеслав":
+        elif input.upper() == "ВЯЧЕСЛАВ":
             display = "Привет"
         else:
             display = "Нет такого имени"
