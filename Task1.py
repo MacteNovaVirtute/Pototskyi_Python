@@ -4,7 +4,7 @@ def check_data():
 
     while True:
         try:
-            input = int(input_data.get())
+            input = float(input_data.get())
             if input > 7:
                 display = "Привет"
             else:
